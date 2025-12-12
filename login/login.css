@@ -1,0 +1,22 @@
+body { font-family:Arial; 
+    background:#f4f4f4; 
+}
+.form-card { width:350px; 
+    margin:40px auto; 
+    padding:25px; 
+    background:white; 
+    border-radius:10px; 
+    box-shadow:0 4px 12px rgba(0,0,0,0.1); 
+}
+input, select { padding:10px; 
+    border:1px solid #ccc; 
+    border-radius:6px; 
+}
+button { padding:12px; 
+    background:#00bcd4; 
+    border:none; color:white; 
+    border-radius:6px; 
+    font-weight:bold; 
+    cursor:pointer; 
+}
+
