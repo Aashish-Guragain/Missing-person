@@ -1,20 +1,88 @@
 body {
-      background-color: #f2f2f2;
-    }
-    .navbar {
-      background: rgba(0,0,0,0.5);
-      color: white;
-    }
-    .navbar a {
-      color: white;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    .post-card {
-      margin-bottom: 20px;
-    }
-    .post-card img {
-      max-height: 400px;
-      object-fit: cover;
-    }
- 
+  background-color: #f4f6f8;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #bb814b;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.nav-link {
+  color: #e9ecef !important;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+h2 {
+  font-weight: 600;
+  color: #212529;
+}
+
+.btn {
+  border-radius: 50px;
+  background-color: crimson;
+}
+
+.post-card {
+  max-width: 680px;
+  margin: 0 auto 24px auto;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.post-card .card-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e9ecef;
+  font-size: 0.95rem;
+}
+
+.post-card .card-body {
+  background-color: #ffffff;
+}
+
+.post-card p {
+  margin-bottom: 12px;
+  color: #343a40;
+}
+
+.post-card img {
+  width: 100%;
+  max-height: 360px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.post-card .card-footer {
+  background-color: #ffffff;
+  border-top: 1px solid #e9ecef;
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+
+@media (max-width: 576px) {
+  .post-card {
+    border-radius: 10px;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+}
