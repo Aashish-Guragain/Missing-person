@@ -1,0 +1,57 @@
+.top-header {
+  width: 100%;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../assets/ic1.jpeg");
+  background-size: cover;
+  background-position: center;
+  min-height: 55vh;
+  flex-wrap: wrap;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.logo {
+  width: 280px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  filter: brightness(0) invert(1);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  flex-wrap: wrap;
+  backdrop-filter: blur(2px);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
+.firstdiv {
+  text-align: center;
+}
+.about-title {
+  font-size: 26px;
+}
